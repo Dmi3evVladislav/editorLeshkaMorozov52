@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Редактор</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main-page">
+        <h1>Редактор</h1>
+        <button id="create-document">Создать документ</button>
+        <div id="document-list"></div>
+    </div>
+
+    <div id="editor-page" style="display: none;">
+        <textarea id="document-content" rows="20" cols="50"></textarea>
+        <br>
+        <button id="save-document">Сохранить документ</button>
+        <button id="delete-document">Удалить документ</button>
+        <button id="back-to-main">На главную</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
